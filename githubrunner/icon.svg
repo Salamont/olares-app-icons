@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="srv" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5bb8ff"/><stop offset="1" stop-color="#1479d7"/>
+    </linearGradient>
+    <linearGradient id="srv2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f8fe6"/><stop offset="1" stop-color="#0d63b8"/>
+    </linearGradient>
+    <linearGradient id="circ" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38b6ff"/><stop offset="1" stop-color="#0b6fd6"/>
+    </linearGradient>
+    <linearGradient id="link" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1479d7"/><stop offset="1" stop-color="#38b6ff"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f9bff"/><stop offset="1" stop-color="#0b57b8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="56" fill="#ffffff"/>
+
+  <!-- main workflow graphic (scaled down, lower-left) -->
+  <g transform="translate(12 34) scale(0.78)">
+    <g fill="none" stroke="url(#link)" stroke-width="9" stroke-linecap="round">
+      <path d="M126 104 C156 104 156 74 176 74"/>
+      <path d="M126 124 C164 124 172 104 196 104"/>
+      <path d="M126 150 C156 150 156 172 176 172"/>
+    </g>
+    <path d="M198 172 H206" fill="none" stroke="#bfdbfe" stroke-width="9" stroke-linecap="round"/>
+
+    <rect x="42" y="70" width="86" height="116" rx="16" fill="url(#srv)"/>
+    <rect x="42" y="70" width="86" height="30" rx="16" fill="url(#srv2)"/>
+    <rect x="42" y="86" width="86" height="14" fill="url(#srv2)"/>
+    <rect x="54" y="94" width="62" height="16" rx="8" fill="#dbeafe"/>
+    <circle cx="64" cy="102" r="4.5" fill="#ffffff"/>
+    <rect x="54" y="124" width="62" height="16" rx="8" fill="#dbeafe"/>
+    <circle cx="64" cy="132" r="4.5" fill="#ffffff"/>
+
+    <circle cx="178" cy="74" r="26" fill="url(#circ)"/>
+    <path d="M171 62 L191 74 L171 86 Z" fill="#ffffff"/>
+
+    <circle cx="198" cy="104" r="22" fill="url(#circ)"/>
+    <path d="M189 104 l6 7 l12 -14" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="178" cy="172" r="22" fill="url(#circ)"/>
+    <path d="M169 172 l6 7 l12 -14" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="214" cy="172" r="17" fill="#ffffff" stroke="#bfdbfe" stroke-width="8"/>
+    <g fill="#cbd5e1">
+      <circle cx="207" cy="172" r="3.4"/><circle cx="214" cy="172" r="3.4"/><circle cx="221" cy="172" r="3.4"/>
+    </g>
+  </g>
+
+  <!-- self-published badge: white S on blue, top-right -->
+  <circle cx="206" cy="52" r="40" fill="#ffffff"/>
+  <circle cx="206" cy="52" r="34" fill="url(#badge)"/>
+  <path d="M223 36 C216 29 200 29 197 39 C194 48 205 50 210 54 C218 59 217 72 205 74 C196 75 189 71 186 65"
+        fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

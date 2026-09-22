@@ -1,0 +1,11 @@
+# Olares app icons
+
+Public icon hosting for my self-published Olares applications.
+
+Each app has its own folder containing `icon.png` (256x256) and the SVG source.
+These files are referenced as `metadata.icon` in the corresponding Olares
+application charts.
+
+| App | Icon |
+|---|---|
+| githubrunner | `githubrunner/icon.png` |
