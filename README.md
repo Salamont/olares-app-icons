@@ -8,5 +8,6 @@ application charts.
 
 | App | Icon |
 |---|---|
+| clustro | `clustro/icon.png` |
 | githubrunner | `githubrunner/icon.png` |
 | yacysearch | `yacysearch/icon.png` |
