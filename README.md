@@ -9,3 +9,4 @@ application charts.
 | App | Icon |
 |---|---|
 | githubrunner | `githubrunner/icon.png` |
+| yacysearch | `yacysearch/icon.png` |
