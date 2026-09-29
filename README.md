@@ -2,7 +2,7 @@
 
 Public icon hosting for my self-published Olares applications.
 
-Each app has its own folder containing `icon.png` (256x256) and the SVG source.
+Each app has its own folder containing `icon.png` (256x256). Some apps also include an SVG source.
 These files are referenced as `metadata.icon` in the corresponding Olares
 application charts.
 
